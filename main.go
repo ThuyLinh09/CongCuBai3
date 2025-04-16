@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
-
+func hi2() {
+	fmt.Println("Hello!")
+}
 
 func hi() {
 	fmt.Println("Hello!")
