@@ -4,7 +4,9 @@ import "fmt"
 
 
 
-
+func hi() {
+	fmt.Println("Hello!")
+}
 
 func IsPrime(n int) bool {
 	for i := 2; i*i <= n; i++ {
